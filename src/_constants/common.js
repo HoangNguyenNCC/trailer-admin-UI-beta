@@ -1,0 +1,48 @@
+export const common = {
+  country: "Australia",
+  states: [
+    "New South Wales",
+    "Victoria",
+    "Tasmania",
+    "Queensland",
+    "South Australia",
+    "Western Australia",
+  ],
+  businessType: ["individual", "company"],
+  days: [
+    "sunday",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+  ],
+  // daysShort: ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"],
+  daysShort: [
+    "sunday",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+  ],
+  hours: "1000-1900",
+  hoursStart: "10:00",
+  hoursEnd: "19:00",
+
+  mcc: "7513",
+  productDescription: "Trailer Rental",
+  licenseeEmployeeType: [
+    "employee",
+    "owner",
+    "representative",
+    "director",
+    "executive",
+  ],
+  // apiUrl: "http://localhost:5000"
+  // apiUrl: "https://t2ytest-private.herokuapp.com",
+  apiUrl: "https://trailer2you.herokuapp.com",
+  // apiUrl: "https://t2ybeta.herokuapp.com",
+};

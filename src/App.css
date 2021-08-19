@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #3f50b5 !important;
+  color: #FFFFFF !important;
+}
+
+.MuiAppBar-colorPrimary .MuiButton-label {
+  color: #FFFFFF !important;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #3f50b5 !important;
+  color: #FFFFFF !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #000000 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #3f50b5 !important;
+  border-width: 2px;
+}
+
+.MuiIconButton-colorPrimary {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.MuiIconButton-colorSecondary {
+  background-color: #3f50b5 !important;
+  color: #000000 !important;
+}
+
+.MuiCheckbox-colorPrimary {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+.MuiCheckbox-colorSecondary {
+  background-color: #FFFFFF !important;
+  color: #3f50b5 !important;
+}
+
+.MuiButtonGroup-groupedOutlinedPrimary.MuiButton-outlinedPrimary {
+  border-color: #000000 !important;
+  color: #000000 !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 2px solid #000000 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #3f50b5 !important;
+}
+
+.t2y-list .MuiIconButton-root {
+  border-radius: 0 !important;
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+}
+
+.SectionContainer {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #9E9E9E;
+  border-radius: 4px;
+}
+
+.TextAlignRight {
+  text-align: right;
+}
+
+.MuiTableCell-root {
+  vertical-align: top !important;
+}
+
+.MuiToolbar-root .MuiTextField-root {
+  display: none !important;
+}
+
+.MuiTableCell-head {
+  font-weight: bold !important;
+}
+
+.MuiTableBody-root {
+  height: 600px !important;
+}
+
+.MuiTableBody-root .MuiTableRow-root {
+  max-height: 10%;
+  overflow: hidden;
+}
+
+.MuiTableRow-root .MuiTableCell-root:last-child {
+  width: auto !important;
+}
+
+.text-error {
+  color: #B71C1C;
+}
+
+.text-success {
+  color: #33691E;
+}
+
+.makeStyles-navButton-5:hover{
+    background: pink;
+}
+
+.wideButton{
+    background: #3f50b5 !important;
+    color: white !important;
+    width:100%;
+}
+/* .MuiOutlinedInput-input:active{
+    border: 10px solid red;
+} */
